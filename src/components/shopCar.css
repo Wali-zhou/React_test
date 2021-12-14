@@ -1,0 +1,12 @@
+.totalPrice{
+  bottom: 0;
+  margin: 10px;
+}
+
+.totalPrice div{
+  font-size: 30px;
+  font-weight: 900;
+  color: red;
+  width: 100px;
+  margin: auto;
+}

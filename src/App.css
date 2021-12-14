@@ -1,0 +1,36 @@
+.isloading{
+  position: fixed;
+  z-index:999;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(26, 24, 24, 0.342);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+  font-size: 60px;
+}
+
+.container{
+  position: relative;
+  /* height: 100%; */
+  height: auto !important; 
+  min-height:100%; 
+}
+.container .mainPage{
+  padding-bottom: 80px;
+}
+.container .footer{
+  position: absolute;
+  bottom: 0;
+  left: 200px;
+  height: 70px;
+  width: calc( 100% - 200px );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  background-color: rgb(201, 201, 201);
+}
